@@ -1,0 +1,78 @@
+/* 水平间距 */
+/* 水平间距 */
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.home {
+  width: 100vw;
+  height: 100vh;
+  /* 商品列表 */
+}
+.home .mp-search-box {
+  padding: 0 20rpx;
+}
+.home .mp-search-box .ser-input {
+  height: 56rpx;
+  line-height: 56rpx;
+  font-size: 28rpx;
+  color: #606266;
+  border-radius: 20rpx;
+  padding: 0 80rpx;
+  background: rgba(166, 166, 166, 0.2);
+}
+.home .mp-goods-box {
+  margin-top: 20rpx;
+}
+.home .mp-goods-box .goods-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 30rpx;
+}
+.home .mp-goods-box .goods-list .goods-item {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  padding-bottom: 40rpx;
+}
+.home .mp-goods-box .goods-list .goods-item:nth-child(2n+1) {
+  margin-right: 4%;
+}
+.home .mp-goods-box .goods-list .image-wrapper {
+  width: 100%;
+  height: 330rpx;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.home .mp-goods-box .goods-list .image-wrapper image {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+.home .mp-goods-box .goods-list .title {
+  font-size: 32rpx;
+  color: #303133;
+  line-height: 80rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.home .mp-goods-box .goods-list .price-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 10rpx;
+  font-size: 24rpx;
+  color: #909399;
+}
+.home .mp-goods-box .goods-list .price {
+  font-size: 32rpx;
+  color: #fa436a;
+  line-height: 1;
+}
+.home .mp-goods-box .goods-list .price:before {
+  content: "￥";
+  font-size: 26rpx;
+}
